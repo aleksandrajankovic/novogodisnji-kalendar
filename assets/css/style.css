@@ -1509,7 +1509,7 @@ i {
 }
 .close-btn {
   display: flex;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   justify-content: right;;
   color:#cd1b1b;
