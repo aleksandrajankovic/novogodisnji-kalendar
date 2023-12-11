@@ -1578,8 +1578,8 @@ i {
   transform: scale(0);
 }
 #modal .wrapper .content .box h2 {
-  font-size: 37px;
-  line-height: 42px;
+  font-size: 30px;
+  line-height: 37px;
   font-weight: bold;
   margin-bottom: 0px;
   background-image: -webkit-linear-gradient(90deg, #d8912f, #fcc545, #fce596);
@@ -1590,7 +1590,15 @@ i {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+/* Dodatni stilovi za precizniju kontrolu nad postavkama fonta */
+.list-rules {
+    -webkit-font-smoothing: antialiased; /* Dodajte ovo za bolje glačanje fontova na Safariju */
+}
 
+/* Postavke za stabilnost boja */
+.list-rules li {
+    -webkit-text-fill-color: #d7d7d7; /* Dodajte ovo za stabilnost boje teksta na Safariju */
+}
 #modal .wrapper .content .box h2 span {
   font-weight: 600!important;
   color: #a73428;
