@@ -21,24 +21,43 @@ target.each(function () {
 
 $(".day").click(function () {
   if ($(this).hasClass("future")) {
+    return; // Ne radi ništa ako je budući dan
   }
+
   if ($(this).hasClass("past")) {
     var content = $(this).children(".surprise").html();
-    $("#modal").addClass("active");
-    $("#modal .wrapper .content .box").html("");
-    $("#modal .wrapper .content .box").html(content);
+
+    // Dodajte proveru da li postoji sadržaj pre nego što otvorite modal
+    if (content.trim() !== "") {
+      $("#modal").addClass("active");
+      $("#modal .wrapper .content .box").html("");
+      $("#modal .wrapper .content .box").html(content);
+    } else {
+      console.log("Nema dostupnog sadržaja za ovaj dan.");
+    }
   }
 });
+
 
 // close modal
 
-$(".close").click(function () {
-  var ultimateParent = $(this).parent().parent().parent();
-  ultimateParent.addClass("moveOut");
-  setTimeout(function () {
-    ultimateParent.removeClass("moveOut").removeClass("active");
-  }, 250);
+$("#modal").click(function (event) {
+  if ($(event.target).closest('.wrapper').length === 0) {
+    $(this).removeClass("active");
+  }
 });
+
+$(document).keyup(function (e) {
+  if (e.key === "Escape") {
+    $("#modal").removeClass("active");
+  }
+});
+
+
+$(".wrapper").click(function () {
+  $("#modal").removeClass("active");
+});
+
 
 
 // snow effect customizations
@@ -62,8 +81,8 @@ for (let i = 0; i < flakes; i++) {
   snowflakes.push(flake);
 }
 
-/*$(document).snowfall({
+$(document).snowfall({
   flakeCount: 100,
   collection: ".collectonme",
   maxSpeed: 10,
-});*/
+});

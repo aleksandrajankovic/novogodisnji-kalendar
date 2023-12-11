@@ -72,17 +72,18 @@ h6 {
 
 h1 {
   font-size: 48px;
-  font-size: 48px;
+  
+}
+
+h2 {
+  font-size: 36px;
+
     background-image: -webkit-linear-gradient(90deg, #d8912f, #fcc545, #fce596);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: left;
     font-family: "Gotham Narrow", sans-serif;
     letter-spacing: 1.5px;
-}
-
-h2 {
-  font-size: 36px;
 }
 
 h3 {
@@ -1769,7 +1770,9 @@ p {
     position: absolute;
     z-index: 1000000;
   }
-   
+.display-none {
+  display: none;
+}  
 #modal .wrapper .content .box {
   width: 375px;
   padding: 10px;

@@ -97,59 +97,7 @@ $(function () {
     ],
   });
 
-  //===== Isotope Project 4
 
-  $(".container").imagesLoaded(function () {
-    var $grid = $(".grid").isotope({
-      // options
-      transitionDuration: "1s",
-    });
-
-    // filter items on button click
-    $(".portfolio-menu ul").on("click", "li", function () {
-      var filterValue = $(this).attr("data-filter");
-      $grid.isotope({
-        filter: filterValue,
-      });
-    });
-
-    //for menu active class
-    $(".portfolio-menu ul li").on("click", function (event) {
-      $(this).siblings(".active").removeClass("active");
-      $(this).addClass("active");
-      event.preventDefault();
-    });
-  });
-
-  //===== slick Testimonial Four
-
-  $(".testimonial-active").slick({
-    dots: false,
-    arrows: true,
-    prevArrow: '<span class="prev"><i class="lni lni-arrow-left"></i></span>',
-    nextArrow: '<span class="next"><i class="lni lni-arrow-right"></i></span>',
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    speed: 800,
-    slidesToShow: 1,
-  });
-
-  //====== Magnific Popup
-
-  $(".video-popup").magnificPopup({
-    type: "iframe",
-    // other options
-  });
-
-  //===== Magnific Popup
-
-  $(".image-popup").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true,
-    },
-  });
 
   //===== Back to top
 
@@ -194,20 +142,19 @@ var fileName = url.substring(url.lastIndexOf('/')+1);
 
 $('a[href="' + fileName + '"]').parent().addClass('active');
 
-function togglePopup() {
-  var popup = document.querySelector('#modal');
+// function togglePopup() {
+//   var popup = document.querySelector('#modal');
 
-  // Proverava se trenutno stanje vidljivosti popupa
-  var isHidden = popup.classList.contains('hidden');
 
-  // Ako je trenutno sakriven, pokaži; ako nije, sakrij
-  if (isHidden) {
-      popup.classList.remove('hidden');
-  } else {
-      popup.classList.add('hidden');
-      location.reload();
+//   var isHidden = popup.classList.contains('hidden');
+
+//   if (isHidden) {
+//       popup.classList.remove('hidden');
+//   } else {
+//       popup.classList.add('hidden');
+//       location.reload();
       
-  }
+//   }
 
-}
+// }
 
