@@ -1507,6 +1507,18 @@ i {
   background-size: cover;
   padding: 30px;
 }
+.ponedeljak {
+  background-image: url(../images/header/monday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.utorak {
+  background-image: url(../images/header/thusday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .close-btn {
   display: flex;
   font-size: 20px;
