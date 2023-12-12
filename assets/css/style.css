@@ -1670,9 +1670,9 @@ i {
 }
 
 #calendar {
-  width: 700px;
+  width: 800px;
   max-width: 100%;
-  margin: 13rem auto;
+  margin: 10rem auto;
   position: relative;
   z-index: 0;
 }
