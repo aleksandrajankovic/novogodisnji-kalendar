@@ -1191,18 +1191,7 @@ i {
   background-size: cover;
   padding: 30px;
 }
-.ponedeljak {
-  background-image: url(../images/header/monday-bg.jpg) ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.utorak {
-  background-image: url(../images/header/thusday-bg.jpg) ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .close-btn {
   display: flex;
   font-size: 20px;
@@ -3118,4 +3107,37 @@ footer {
       padding: 20px 0;
   }
  
+}
+
+/*POPUP IMAGES*/
+
+.ponedeljak {
+  background-image: url(../images/header/monday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.utorak {
+  background-image: url(../images/header/thusday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sreda {
+  background-image: url(../images/header/wednesday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cetvrtak {
+  background-image: url(../images/header/thursday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.petak {
+  background-image: url(../images/header/friday-bg.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
