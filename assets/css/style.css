@@ -2806,31 +2806,31 @@ i {
 
 .ponedeljak {
   background-image: url(../images/header/monday-bg.jpg) ;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .utorak {
   background-image: url(../images/header/thusday-bg.jpg) ;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .sreda {
   background-image: url(../images/header/wednesday-bg.jpg) ;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .cetvrtak {
   background-image: url(../images/header/thursday-bg.jpg) ;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .petak {
   background-image: url(../images/header/friday-bg.jpg) ;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3125,9 +3125,7 @@ footer {
     .copyright p {
       font-size: 0.7rem;
     }
-    .ponedeljak {
-      background-image: url(../images/header/monday-mob.jpg) ;
-    }
+   
  }
  @media screen and (max-width: 375px) { 
   .payments-icons {
