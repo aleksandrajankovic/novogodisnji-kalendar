@@ -2834,7 +2834,18 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.subota {
+  background-image: url(../images/header/saturday-bg.jpg) ;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nedelja {
+  background-image: url(../images/header/sunday-bg.jpg) ;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*novi footer*/
 /*FOOTER*/
 .footer-wrapper {

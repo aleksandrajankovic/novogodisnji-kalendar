@@ -27,7 +27,7 @@ $(".day").click(function () {
   if ($(this).hasClass("past")) {
     var content = $(this).children(".surprise").html();
 
-    // Dodajte proveru da li postoji sadržaj pre nego što otvorite modal
+    // Provera da li postoji sadržaj pre nego što se otvoriti popup
     if (content.trim() !== "") {
       $("#modal").addClass("active");
       $("#modal .wrapper .content .box").html("");
