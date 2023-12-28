@@ -11,6 +11,7 @@ target.each(function () {
   }
   if (todaysDate < day) {
     $(this).parent().addClass("future");
+    $(this).parent().addClass("gift");
   }
   if (todaysDate >= day) {
     $(this).parent().addClass("past");
