@@ -1448,7 +1448,7 @@ i {
   cursor: default;
 }
 #calendar .week .day:hover {
-  background-image: -webkit-linear-gradient(90deg, #d8912f, #fcc545);
+  background-color: #ffde9163;
   cursor: pointer;
 }
 #calendar .week .day:hover.noDate {
