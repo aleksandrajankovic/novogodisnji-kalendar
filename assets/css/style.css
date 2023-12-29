@@ -1473,6 +1473,11 @@ i {
     background-position: center;
     background-size: contain;
 }
+.gift-open {
+  background-image: url(../../img/gift-open.png);
+    background-position: center;
+    background-size: contain;
+}
 .calendar-box {
   display: flex;
   flex-direction: column;
