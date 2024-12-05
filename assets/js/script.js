@@ -11,9 +11,15 @@ target.each(function () {
   }
   if (todaysDate < day) {
     $(this).parent().addClass("future");
+    if ($(this).siblings(".surprise").html().trim() !== "") {
+      $(this).parent().addClass("gift");
+    }
   }
   if (todaysDate >= day) {
     $(this).parent().addClass("past");
+    if ($(this).siblings(".surprise").html().trim() !== "") {
+      $(this).parent().addClass("gift-open");
+    }
   }
 });
 
@@ -86,3 +92,4 @@ $(document).snowfall({
   collection: ".collectonme",
   maxSpeed: 10,
 });
+
