@@ -736,6 +736,7 @@ p {
   font-style: italic;
   font-weight: 900;
   font-size: 70px;
+<<<<<<< HEAD
   line-height: 72px;
   color: #fff;
   font-family: "Gotham Narrow", sans-serif;
@@ -757,6 +758,18 @@ p {
   text-align: left;
   text-transform: uppercase;
   padding: 0 5px;
+=======
+  background: -webkit-linear-gradient(90deg, #c1c1e8, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Gotham Narrow", sans-serif;
+  letter-spacing: 1.5px;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px auto;
+  padding: 0 1rem;
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 }
 .slider-text1 h4 {
   font-style: normal;
@@ -1360,6 +1373,10 @@ i {
 #calendar {
   width: 70%;
   max-width: 100%;
+<<<<<<< HEAD
+=======
+  margin: 0rem auto 2rem auto;
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
   position: relative;
   z-index: 0;
 }
@@ -1472,24 +1489,38 @@ i {
   background-image: url(../../img/gift.png);
     background-position: center;
     background-size: contain;
+<<<<<<< HEAD
     background-repeat: no-repeat;
+=======
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 }
 .gift-open {
   background-image: url(../../img/gift-open.png);
     background-position: center;
     background-size: contain;
+<<<<<<< HEAD
     background-repeat: no-repeat;
+=======
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 }
 .calendar-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
   align-items: left;
   margin: 5rem auto 1rem auto;
 }
 .calendar-box img{
   max-width: 20%;
   margin-bottom: 20px;
+=======
+  align-items: center;
+  margin: 5rem auto 2rem auto;
+}
+.calendar-box img{
+  max-width: 30%;
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 }
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   #modal {
@@ -1604,14 +1635,21 @@ i {
 }
 .calendar-box {
 
+<<<<<<< HEAD
   margin: 5rem auto 3rem auto;
+=======
+  margin: 4rem auto 3rem auto;
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 }
 .gift {
   background-image: url(../../img/gift-mob.png);
     background-position: center;
     background-size: contain;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
 .calendar-box img {
   max-width: 42%;
 }

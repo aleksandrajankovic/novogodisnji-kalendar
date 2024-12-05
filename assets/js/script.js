@@ -11,9 +11,13 @@ target.each(function () {
   }
   if (todaysDate < day) {
     $(this).parent().addClass("future");
+<<<<<<< HEAD
     if ($(this).siblings(".surprise").html().trim() !== "") {
       $(this).parent().addClass("gift");
     }
+=======
+    $(this).parent().addClass("gift");
+>>>>>>> 004181e1cc9b27654e0cfc6458a26f7ebff72165
   }
   if (todaysDate >= day) {
     $(this).parent().addClass("past");
